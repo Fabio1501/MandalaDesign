@@ -1,0 +1,201 @@
+@import url(Estilos_generales.css);
+@import url(componentes.css);
+
+/* *** ENCABEZADO - HEADER *** */
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    height: var(--altura-encabezado-mobile);
+    background-color: var(--color-principal);
+    color: var(--color-oscuro-principal);
+    box-shadow: 0px 12px 38px -20px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 12px 38px -20px rgba(0, 0, 0, 1);
+    z-index: 999;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+header button{
+    margin-left: 150px;
+}
+
+header .logo img{
+    padding: 0;
+    margin: 0;
+    width: 70px;
+    height: 60px;
+}
+
+.logo p{
+    color: var(--color-oscuro-principal);
+}
+
+/* *** INICIO - HOME *** */
+
+.inicio{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/fondo-home.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+
+.inicio h1{
+    font-size: 170%;
+}
+
+.hero-image{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(251, 213, 229, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+
+/* *** SOBRE NOSOTROS - ABOUT US *** */
+
+.sobre-nosotros{
+    background-color: var(--color-secundario);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-nosotros h2{
+    margin: 1em;
+}
+
+.mision, .vision, .valores{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.mision h3, .vision h3, .valores h3{
+    align-self: flex-start;
+    padding: .2rem .5rem;
+    border-left: 2px solid red;
+}
+
+.mision h3{
+    border-left: 2px solid green;
+}
+
+.vision h3{
+    border-left: 2px solid blue;
+}
+
+.sobre-nosotros * img{
+    min-width: 30%;
+    max-width: 40%;
+    min-height: 50%;
+    max-height: 70%;
+}
+
+
+/* ******** PRODUCTOS - PRODUCTS ********* */
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-principal);
+}
+
+.productos h2{
+    margin: 1rem auto;
+}
+
+
+/* ******** CONTACTO - CONTACT ********* */
+
+.contactanos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-secundario);
+}
+
+/* ******** PIE DE PAGINA - FOOTER ********* */
+
+.pie-pagina{
+    background-color: var(--color-oscuro-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pie-pagina p{
+    color: var(--color-oscuro-secundario);
+    margin: 0;
+}
+
+
+.pie-pagina .redes-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.redes-footer img{
+    min-width: 20px;
+    max-width: 30px;
+    min-height: 20px;
+    max-height: 30px;
+    margin: 10px 10px;
+}
+
+.redes-footer .wsp, .redes-footer .fb, .redes-footer .ig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-oscuro-secundario);
+} 
+
+.redes-footer a:hover{
+    opacity: .7;
+    background-color: transparent;
+}
+
+.redes-footer .wsp:hover{
+    color: #008000;
+}
+
+.redes-footer .fb:hover{
+    color: #0000ff;
+}
+
+.redes-footer .ig:hover{
+    color: #c93a8d;
+}

@@ -1,0 +1,44 @@
+{
+    "card": [
+        {
+            "id":1,
+            "tipo": "isotipo",
+            "url": "assets/mandala-logo.jpg",
+            "nombre": "Mandala",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe laudantium aliquid? Omnis eum labore incidunt recusandae officiis quos..",
+            "precio": "$1200"
+        },
+        {
+            "id":2,
+            "tipo": "logotipo",
+            "url": "assets/KyP.jpg",
+            "nombre": "K y P",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe ",
+            "precio": "$900"
+        },
+        {
+            "id":3,
+            "tipo": "imagotipo",
+            "url": "assets/nails-gla.jpg",
+            "nombre": "Nails - Gla",
+            "descripcion": "Este logo representa a la inmensidad del pajaro junto con el arte que es pintar las uñas",
+            "precio": "$800"
+        },
+        {
+            "id":4,
+            "tipo": "imagotipo",
+            "url": "assets/OIP (2).jpeg",
+            "nombre": "Mandoluki",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe laudantium aliquid? Omnis eum labore incidunt recusandae officiis quos..",
+            "precio": "$1500"
+        },
+        {
+            "id":5,
+            "tipo": "isotipo",
+            "url": "assets/logo.png",
+            "nombre": "Mandala",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe laudantium aliquid? Omnis eum labore incidunt recusandae officiis quos..",
+            "precio": "$1200"
+        }
+    ]
+}

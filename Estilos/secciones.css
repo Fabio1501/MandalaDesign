@@ -348,6 +348,7 @@ header .logo img{
         font-size: 2rem;
         padding: 0;
         margin-top: 12px;
+        text-align: start;
     }
 
     .inicio-desktop .container p{

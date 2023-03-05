@@ -84,6 +84,11 @@
     background-color: transparent;
 }
 
+.menu-desktop{
+    visibility: hidden;
+    display: none;
+}
+
 /* *** BOTON CONTACTANOS - CONTACT US BUTTON *** */
 
 .contactanos-btn-dark{
@@ -104,6 +109,7 @@
     color: var(--color-oscuro-principal);
     background-color: var(--color-principal);
     border: 2px solid var(--color-oscuro-principal);
+    cursor: pointer;
 }
 
 .contactanos-btn, .verMas-btn{
@@ -120,10 +126,11 @@
     text-decoration: none;
 }
 
-.contactanos-btn:hover{
+.contactanos-btn:hover, .verMas-btn:hover{
     color: var(--color-principal);
     background-color: var(--color-oscuro-principal);
     border: 2px solid var(--color-principal);
+    cursor: pointer;
 }
 
 
@@ -131,6 +138,7 @@
 
 .slider{
     position: relative; 
+    height: inherit;
     width: 90%;
     margin: 1rem auto;
     text-align: center;
@@ -419,7 +427,6 @@
     height: 3.5rem;
     border-radius: 50%;
     background-color: var(--color-principal);
-    border: 1px solid black;
     text-align: center;
     cursor: pointer;
     transition: all .3s ease-out;

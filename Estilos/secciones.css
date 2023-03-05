@@ -38,6 +38,8 @@ header .logo img{
 
 .logo p{
     color: var(--color-oscuro-principal);
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 /* *** INICIO - HOME *** */
@@ -58,7 +60,7 @@ header .logo img{
 .hero-image{
     width: inherit;
     height: inherit;
-    background-color: rgba(251, 213, 229, 0.8);
+    background-color: rgba(251, 213, 229, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,6 +121,7 @@ header .logo img{
 /* ******** PRODUCTOS - PRODUCTS ********* */
 
 .productos{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,4 +201,306 @@ header .logo img{
 
 .redes-footer .ig:hover{
     color: #c93a8d;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .menu-desktop{
+        visibility: hidden;
+        display: none;
+    }
+
+    header{
+        justify-content: space-between;
+    }
+
+    .menu{
+        height: 100%;
+    }
+
+    .menu a{
+        font-size: 2rem;
+    }
+
+    .inicio{
+        background-image: url("../assets/bg-tablet.jpeg");
+    }
+
+    .inicio .hero-image .container{
+        visibility: hidden;
+        display: none;
+    }
+
+    .inicio .hero-image .container-tablet{
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 150px;
+        width: 55%;
+        gap: 10px;
+    }
+
+
+    .inicio .hero-image .container-tablet p{
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    .inicio .hero-image .container-tablet a{
+        width: 60%;
+        height: 3.5em;
+    }
+
+    .slider-slides{
+        height: 900px;
+    }
+
+    .slider-btns{
+        font-size: 5.5rem;
+    }
+
+    .card p{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+
+    .card .verMas-btn{
+        margin-top: 5.5rem;
+        width: 60%;
+        height: 5.5rem;
+        font-size: 2rem;
+    }
+
+    .form-container{
+        height: 800px;
+        justify-content: space-evenly;
+    }
+
+    .form-container .contactanos-btn{
+        width: 80%;
+        font-size: 2rem;
+    }
+    
+    .contact-form legend{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .panel-btn{
+        visibility: hidden;
+        display: none;
+    }
+
+    header{
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .menu-desktop{
+        display: flex;
+        visibility: visible;
+        column-gap: 1.5em;
+    }
+    
+    .menu-desktop a{
+        text-decoration: none;
+        color: var(--color-oscuro-principal);
+        font-weight: 600;
+    }
+
+    .menu-desktop a:hover{
+        scale: 1.1;
+        border-bottom: 2px solid var(--color-oscuro-principal);
+    }
+
+    .inicio{
+        visibility: hidden;
+        display: none;
+    }
+
+    .inicio-desktop{
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--color-principal);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inicio-desktop img{
+        filter: drop-shadow(10px 5px 10px var(--color-oscuro-principal));
+        height: 90%;
+    }
+
+    .inicio-desktop .container{
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .inicio-desktop .container h2{
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 0;
+        margin-top: 12px;
+    }
+
+    .inicio-desktop .container p{
+        font-size: 1.3rem;
+    }
+
+    .inicio-desktop .container .contactanos-btn-dark{
+        width: 40%;
+        height: 4em;
+    }
+
+    .sobre-nosotros{
+        visibility: hidden;
+        display: none;
+    }
+
+    .sobre-nosotros-desktop{
+        background-color: var(--color-secundario);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros-desktop h2{
+        margin: 1em;
+        margin-bottom: 4em;
+    }
+
+    .sobre-nosotros-desktop .mision{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+    }
+
+    .sobre-nosotros-desktop .mision .mision-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+    }
+
+    .sobre-nosotros-desktop .mision img{
+        width: 40%;
+        height: 400px;
+    }
+
+    .sobre-nosotros-desktop .vision{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+    }
+
+    .sobre-nosotros-desktop .vision .vision-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+    }
+
+    .sobre-nosotros-desktop .vision img{
+        width: 40%;
+        height: 400px;
+    }
+
+    .sobre-nosotros-desktop .valores{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+    }
+
+    .sobre-nosotros-desktop .valores .valores-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+    }
+
+    .sobre-nosotros-desktop .valores img{
+        width: 40%;
+        height: 400px;
+    }
+
+    .slider-slides{
+        height: 550px;
+        width: 33%;
+        margin: auto;
+    }
+
+    .slider .verMas-btn{
+        margin-top: 1em;
+        font-size: 1.3rem;
+        height: 2em;
+    }
+
+    .slider-btns{
+        width: 44%;
+        left: 28%;
+    }
+
+    .card-focus{
+        width: 33%;
+    }
+
+    .card-focus .contactanos-btn{
+        height: 3em;
+        width: 80%;
+    }
+
+    .form-container{
+        width: 50%;
+    }
+
+    .form-container .contactanos-btn{
+        height: 3em;
+        width: 80%;
+    }
+
+    .pie-pagina{
+        visibility: hidden;
+        display: none;
+    }
+
+    .pie-pagina-desktop{
+        background-color: var(--color-oscuro-principal);
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 5em;
+    }
+
+    .pie-pagina-desktop .redes-footer{
+        display: flex;
+    }
+
+    .footer-text{
+        color: var(--color-secundario);
+        row-gap: 1em;
+    }
+
+    .pie-pagina-desktop p{
+        margin: 0;
+        padding: 0;
+    }
 }

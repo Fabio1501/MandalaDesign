@@ -43,6 +43,10 @@ header .logo img{
 }
 
 /* *** INICIO - HOME *** */
+.inicio-desktop{
+    visibility: hidden;
+    display: none;
+}
 
 .inicio{
     width: 100vw;
@@ -74,6 +78,11 @@ header .logo img{
 
 
 /* *** SOBRE NOSOTROS - ABOUT US *** */
+
+.sobre-nosotros-desktop{
+    visibility: hidden;
+    display: none;
+}
 
 .sobre-nosotros{
     background-color: var(--color-secundario);
@@ -203,6 +212,10 @@ header .logo img{
     color: #c93a8d;
 }
 
+.pie-pagina-desktop{
+    visibility: hidden;
+    display: none;
+}
 
 @media only screen and (min-width: 768px) {
     .menu-desktop{
@@ -327,6 +340,7 @@ header .logo img{
         display: flex;
         justify-content: center;
         align-items: center;
+        visibility: visible;
     }
 
     .inicio-desktop img{
@@ -371,6 +385,7 @@ header .logo img{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        visibility: visible;
     }
 
     .sobre-nosotros-desktop h2{
@@ -489,6 +504,7 @@ header .logo img{
         align-items: center;
         width: 100%;
         height: 5em;
+        visibility: visible;
     }
 
     .pie-pagina-desktop .redes-footer{
